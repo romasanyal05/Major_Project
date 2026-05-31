@@ -177,8 +177,8 @@ pnpm run build
 
 | Role | Username / Email | Password |
 | :--- | :--- | :--- |
-| **Standard Operator** | `demo@phishguard.io` | `Demo1234!` |
-| **Security Administrator** | `admin@phishguard.io` | `Demo1234!` |
+| **Standard Operator** | `demo@phishguard.io` | `Demo123450!!` |
+| **Security Administrator** | `admin@phishguard.io` | `Demo1234!!!123` |
 
 ---
 
