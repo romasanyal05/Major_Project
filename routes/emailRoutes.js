@@ -4,7 +4,7 @@ const router = express.Router();
 
 const verifyToken = require("../middleware/authMiddleware");
 
-router.post("/scan-email", verifyToken, (req, res) => {
+router.post("/email", (req, res) => {
 
   const { content } = req.body;
 
@@ -12,7 +12,12 @@ router.post("/scan-email", verifyToken, (req, res) => {
     success: true,
     message: "Email analyzed successfully",
     content,
-    risk: "Medium"
+    riskLevel: "Medium",
+    score: 78 ,
+    findings: [
+      "Suspicious sender detected",
+      "Urgent language detected"
+    ]
   });
 
 });
