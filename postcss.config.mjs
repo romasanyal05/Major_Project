@@ -1,5 +1,5 @@
-const config = {
+export default {
   plugins: {},
-};
+}
 
-export default config;
+
